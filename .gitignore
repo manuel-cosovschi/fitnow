@@ -1,0 +1,32 @@
+# --- macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- Node/Backend
+backend/node_modules/
+backend/.env
+backend/.env.*.local
+backend/npm-debug.log*
+backend/yarn-*.log*
+backend/pnpm-debug.log*
+backend/.eslintcache
+backend/dist/
+backend/coverage/
+
+# --- Xcode / iOS
+**/build/
+**/DerivedData/
+**/*.xcuserdatad/
+**/*.xcuserdata/
+**/.build/
+Pods/
+Podfile.lock
+**/*.xcscmblueprint
+**/*.xccheckout
+
+# --- Duplicado iOS (si no lo usás)
+ios/
+
+# Otros
+*.swp
